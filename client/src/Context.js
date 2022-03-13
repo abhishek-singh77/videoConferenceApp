@@ -4,8 +4,14 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:5000');
-// const socket = io('https://warm-wildwood-81069.herokuapp.com');
+// const socket = io('http://localhost:5000');
+
+const socket = io('https://video-chat-ampss.herokuapp.com/');
+
+// what we are doing here is that we are creating a provider
+// and we are passing the socket as a prop to the provider
+// in ContextProvider we are passing children as a prop
+// and then we are defining the states that we are going to use
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
