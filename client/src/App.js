@@ -48,7 +48,7 @@ const App = () => {
             //The position attribute specifies where the toolbar should be positioned.
             //The color attribute specifies the color of the toolbar.
         */}
-        <Typography variant="h2" align="center">Video Chat</Typography>
+        <Typography variant="h2" align="center">Conference App</Typography>
         {/* //The Typography component is used to display text.
         //The variant attribute specifies the type of text.
         //The align attribute specifies the alignment of the text.
